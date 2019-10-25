@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Sowseeds International Ministries</title>
+	<style type="text/css">
+		body{
+			background-image: url(_MG_0073.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#heading{
+			text-align: center;
+
+		}
+		#make-up{
+			color: white;
+			font-size: 25px;
+		}
+		img{
+			float: center;
+		}
+		.tabHolder{
+
+			width: 80%;
+			padding: 40px;
+			margin: 0px 100px;
+			font-family: verdana;
+			height: 200px;
+		}
+		.tabHolder .buttonHolder{
+			height: 38%;
+		}
+		.tabHolder .buttonHolder button{
+			width: 14.8%;
+			height: 100%;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 10px;
+			font-family: tahoma;
+			font-size: 15px;
+			background-color: white;
+		}
+		.tabHolder .buttonHolder button:hover{
+			background-color: green;
+		}.tabHolder .tabPanel{
+			width: 30%;
+			height: 70%;
+			background-color: yellow;
+			color: black;
+			text-align: center;
+			padding-bottom: 10px;
+			box-sizing: border-box;
+			font-family: tahoma;
+			font-size: 18px;
+			display: none;
+		}
+		.tabHolder .tabPanel1{
+			background-color: yellow;
+			color: black;
+			text-align: center;
+			padding-bottom: 10px;
+			box-sizing: border-box;
+			font-family: tahoma;
+			font-size: 18px;
+			display: none;
+		}
+		
+		.content{
+			
+			width: 70%;
+			padding: 40px;
+			margin: 100px auto;
+			font-family: times new roman;
+			color: orange;
+			font-size: 25px;
+		}
+		p{
+			font-size: 25px;
+			color: black;
+		}
+		
+	</style>
+	<script type="text/javascript">
+		<!--
+
+		var image1= new Image();
+		image1.src="_MG_0006.jpg";
+		var image2= new Image();
+		image2.src="_MG_0011.jpg";
+		var image3= new Image();
+		image3.src="_MG_0043.jpg";
+		var image4= new Image();
+		image4.src="_MG_0070.jpg";
+		var image5= new Image();
+		image5.src="_MG_0082.jpg";
+		var image6= new Image();
+		image6.src="_MG_0094.jpg";
+		var image7= new Image();
+		image7.src="_MG_0100.jpg";
+		var image8= new Image();
+		image8.src="_MG_0105.jpg";
+		var image9= new Image();
+		image9.src="_MG_0121.jpg";
+		var image10= new Image();
+		image10.src="_MG_0123.jpg";
+		var image11= new Image();
+		image11.src="_MG_0127.jpg";
+		var image12= new Image();
+		image12.src="_MG_0228.jpg";
+		//->
+	</script>
+</head>
+<body style="background-color: green">
+
+<div class='content'>
+		
+	
+	<img width="300" height="200" src="SIM logo.png" >
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<div class="tabHolder">
+		<div class="buttonHolder">
+			<button onclick="showPanel(0,'lightblue')"><a href="homepage.html"><big>About Us</big></a></button>
+			<button onclick="showPanel(1,'red')"><a href="events.html"><big>Events</big></a></button>
+			<button onclick="showPanel(2,'yellow')"><a href="mission_vision.html"><big>Mission & Vision</big></a></button>
+			<button onclick="showPanel(3,'lightgreen')"><a href="audio_teachings.html"><big>Audio Teachings</big></a></button>
+			<button onclick="showPanel(4,'gray')"><a href="directions.html" ><big>Directions</big></a></button>
+			<button onclick="showPanel(5,'orange')"><a href="donations.html"><big>Donations</big></a></button>
+			
+		</div>
+		<div class="tabPanel"><a href="our_purpose.html" >Our Purpose</a><br> <a href="our_pastor.html" >Our Pastor</a><br> <a href="our_team.html" >Our Team</a><br> <a href="our_values.html" >Our Values</a><br> <a href="statement_of_faith.html" >Statement of Faith</a><br> <a href="contact_us.html" >Contact Us</a></div>
+		<div class="tabPanel"><a href="camp.html" >Children's Camp</a><br><br> <a href="awana.html" >AWANA</a><br><br> <a href="worship_night.html" >Worship Night</a></div>
+		<div class="tabPanel1"></div>
+		<div class="tabPanel1"></div>
+		<div class="tabPanel1"></div>
+		<div class="tabPanel1"></div>
+	</div>
+	<h1 id= "heading">Sowseeds International Ministries</h1>
+	<hr/><hr/>
+	<p id = "make-up">
+	<h1>Children's Camp</h1>
+	<img src="_MG_0006.jpg" name="slide" width="1000" height="600">
+	</p>
+</div>
+	<script type="text/javascript">
+		<!--
+		var step=1;
+		function slideit(){
+			document.images.slide.src=eval("image"+step+".src");
+			if (step<12) {
+				step++;
+			}
+			else{
+				step=1;
+
+			}
+			setTimeout("slideit()",3500);
+		}
+		slideit();
+		//-->
+	</script>
+	<script src="myScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Sowseeds International Ministries</title>
+	<style type="text/css">
+		body{
+			background-image: url(forest.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#heading{
+			text-align: center;
+
+		}
+		#make-up{
+			color: white;
+			font-size: 25px;
+		}
+		img{
+			float: center;
+		}
+		.tabHolder{
+
+			width: 80%;
+			padding: 40px;
+			margin: 0px 100px;
+			font-family: verdana;
+			height: 200px;
+		}
+		.tabHolder .buttonHolder{
+			height: 38%;
+		}
+		.tabHolder .buttonHolder button{
+			width: 14.8%;
+			height: 100%;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 10px;
+			font-family: tahoma;
+			font-size: 15px;
+			background-color: white;
+		}
+		.tabHolder .buttonHolder button:hover{
+			background-color: green;
+		}
+		.tabHolder .tabPanel{
+			width: 30%;
+			height: 70%;
+			background-color: yellow;
+			color: black;
+			text-align: center;
+			padding-bottom: 10px;
+			box-sizing: border-box;
+			font-family: tahoma;
+			font-size: 18px;
+			display: none;
+		}
+		.tabHolder .tabPanel1{
+			background-color: yellow;
+			color: black;
+			text-align: center;
+			padding-bottom: 10px;
+			box-sizing: border-box;
+			font-family: tahoma;
+			font-size: 18px;
+			display: none;
+		}
+		
+		.content{
+			
+			width: 70%;
+			padding: 40px;
+			margin: 100px auto;
+			font-family: times new roman;
+			color: white;
+			font-size: 25px;
+		}
+		p[id]{
+			font-size: 25px;
+			color: black;
+		}
+		
+	</style>
+</head>
+<body style="background-color: green">
+
+<div class='content'>
+		
+	
+	<img width="300" height="200" src="SIM logo.png" >
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<div class="tabHolder">
+		<div class="buttonHolder">
+			<button onclick="showPanel(0,'lightblue')"><a href="homepage.html"><big>About Us</big></a></button>
+			<button onclick="showPanel(1,'red')"><a href="events.html"><big>Events</big></a></button>
+			<button onclick="showPanel(2,'yellow')"><a href="mission_vision.html"><big>Mission & Vision</big></a></button>
+			<button onclick="showPanel(3,'lightgreen')"><a href="audio_teachings.html"><big>Audio Teachings</big></a></button>
+			<button onclick="showPanel(4,'gray')"><a href="directions.html" ><big>Directions</big></a></button>
+			<button onclick="showPanel(5,'orange')"><a href="donations.html"><big>Donations</big></a></button>
+			
+		</div>
+		<div class="tabPanel"><a href="our_purpose.html" >Our Purpose</a><br> <a href="our_pastor.html" >Our Pastor</a><br> <a href="our_team.html" >Our Team</a><br> <a href="our_values.html" >Our Values</a><br> <a href="statement_of_faith.html" >Statement of Faith</a><br> <a href="contact_us.html" >Contact Us</a></div>
+		<div class="tabPanel"><a href="camp.html" >Children's Camp</a><br><br> <a href="awana.html" >AWANA</a><br><br> <a href="worship_night.html" >Worship Night</a></div>
+		<div class="tabPanel1"></div>
+		<div class="tabPanel1"></div>
+		<div class="tabPanel1"></div>
+		<div class="tabPanel1"></div>
+	
+	<h1 id= "heading">Sowseeds International Ministries</h1>
+	<hr/><hr/>
+	<p id = "make-up">
+	For directions to Sowseeds International Ministries, please use the Google map below:
+	<h2>Address:</h2>
+	Guggisberg Avenue, Accra
+	<br>
+	<h2>Phone:</h2>
+	(+233)244384937
+	</p>
+
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.2094985143444!2d-0.25579398573133866!3d5.535915495986019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf977b8db27ed5%3A0xa33fecd6abb2378c!2sSowseed+Intl.Ministries+Camera+Mission!5e0!3m2!1sen!2sgh!4v1565131429420!5m2!1sen!2sgh" width="900" height="550" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+
+	<br/>
+	<br/>
+	
+</div>
+	<script src="myScript.js"></script>
+</body>
+</html>
